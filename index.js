@@ -38,7 +38,7 @@ client.on('message', message => { // nome desse evento, foi setado como: message
     if (message.author.bot) return; // puxando o nome definido, bloquearemos o uso de comandos por outros bots
     if (message.channel.type === "dm") return; // caso seja uma mensagem privada ao nosso bot, não retornaremos
 
-    let prefix = config.prefix; // puxando o prefixo do nosso bot
+    let prefix = "c."; // puxando o prefixo do nosso bot
     if (!message.content.startsWith(prefix)) return; // para evitar bugs, setaremos uma function, definindo que o bot respondera apenas para mensagens que possuem seu prefixo, no inicio
     var args = message.content.substring(config.prefix.length).split(" "); // definindo o que seria os argumentos
     let cmd = args.shift().toLowerCase(); // puxando dos args, setaremos que o bot pode responder sim, a comandos com a letra inicial maiuscula
