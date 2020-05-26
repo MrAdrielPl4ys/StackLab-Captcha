@@ -1,5 +1,5 @@
 ## Sobre
- Olá programador. O DiscordLab é uma comunidade, fundada para auxiliar os programadores iniciantes e, até mesmo, ensinar mais coisas aos experientes. Não sabe programar nada? Fique tranquilo, iremos te ensinar!!!
+ Olá programador. A StackLab é uma comunidade, fundada para auxiliar os programadores iniciantes e, até mesmo, ensinar mais coisas aos experientes. Não sabe programar nada? Fique tranquilo, iremos te ensinar!!!
 
 ## Instalação
  Após ter clonado o repositorio e extraido todos arquivos, tenha certeza que possui o [npm](https://www.npmjs.com/) e o [node.js 8.0.0](https://nodejs.org/en/) ou mais recente. Caso estiver com tudo pronto então execute o seguinte comando no diretório dos arquivos.
